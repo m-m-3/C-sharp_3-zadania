@@ -59,6 +59,7 @@ class Program
 
     static void Kalkulator()
     {
+        Console.Clear();
         Console.WriteLine("=== KALKULATOR ===");
         Console.WriteLine("Podaj pierwszą liczbę:");
         double a = WczytajLiczbe();
@@ -94,7 +95,30 @@ class Program
 
     static void KonwerterTemperatury()
     {
+        Console.Clear();
+        Console.WriteLine("=== KONWERTER (C <-> F) ===");
+        Console.WriteLine("Jaką temperaturę chcesz skonwertować (C/F)?");
+        string konwersjaZ = (Console.ReadLine() ?? "").Trim().ToUpper();
         
+        if (konwersjaZ != "C" && konwersjaZ != "F")
+        {
+            Console.WriteLine("Nie obsługuję takiej operacji!");
+            Pauza();
+            return;
+        }
+                
+        Console.WriteLine("Podaj temperaturę:");
+        double temperatura = WczytajLiczbe();
+
+        if (konwersjaZ == "C")
+        {
+            Console.WriteLine($"{temperatura}°C = {(temperatura * 1.8) + 32.0}°F");
+        } else 
+        {
+            Console.WriteLine($"{temperatura}°F = {(temperatura - 32.0) / 1.8}°C");
+        }
+
+        Pauza();
     }
     static void ObliczSredniaOcen()
     {
