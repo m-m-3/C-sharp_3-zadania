@@ -1,0 +1,15 @@
+/workspaces/C-sharp_3-zadania/bin/Debug/net10.0/C-sharp_3-zadania
+/workspaces/C-sharp_3-zadania/bin/Debug/net10.0/C-sharp_3-zadania.deps.json
+/workspaces/C-sharp_3-zadania/bin/Debug/net10.0/C-sharp_3-zadania.runtimeconfig.json
+/workspaces/C-sharp_3-zadania/bin/Debug/net10.0/C-sharp_3-zadania.dll
+/workspaces/C-sharp_3-zadania/bin/Debug/net10.0/C-sharp_3-zadania.pdb
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/C-sharp_3-zadania.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/C-sharp_3-zadania.AssemblyInfoInputs.cache
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/C-sharp_3-zadania.AssemblyInfo.cs
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/C-sharp_3-zadania.csproj.CoreCompileInputs.cache
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/C-sharp_3-zadania.sourcelink.json
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/C-sharp_3-zadania.dll
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/refint/C-sharp_3-zadania.dll
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/C-sharp_3-zadania.pdb
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/C-sharp_3-zadania.genruntimeconfig.cache
+/workspaces/C-sharp_3-zadania/obj/Debug/net10.0/ref/C-sharp_3-zadania.dll
