@@ -86,7 +86,7 @@ class Program
             Console.WriteLine($"Wynik: {a / b}");
         } else
         {
-            Console.WriteLine("Nie obługuję takiej operacji!");
+            Console.WriteLine("Nie obsługuję takiej operacji!");
             Pauza();
             return;
         }
@@ -122,8 +122,44 @@ class Program
     }
     static void ObliczSredniaOcen()
     {
+        Console.Clear();
+        Console.WriteLine("=== OBLICZ ŚREDNIĄ OCEN ===");
+        Console.WriteLine("Ile ocen ma uczeń?");
+        int liczbaOcen = (int) WczytajLiczbe();
         
+        if (liczbaOcen <= 0)
+        {
+            Console.WriteLine("Uczeń nie ma ocen!");
+            Pauza();
+            return;
+        }
+
+        double suma = 0;
+
+        for (int i = 1; i <= liczbaOcen; i++)
+        {
+            Console.Write($"Podaj ocenę nr {i}: ");
+            double ocena = WczytajLiczbe();
+
+            while (ocena < 1 || ocena > 6)
+            {
+                Console.Write($"Nieprawidłowa ocena, podaj ponownie: ");
+                ocena = WczytajLiczbe();
+            }
+
+            suma += ocena;
+        }
+
+        double srednia = suma / liczbaOcen;
+                
+        Console.WriteLine($"Średnia ucznia to: {srednia:f2}");
+        if (srednia >= 3.0)
+        {
+            Console.WriteLine("Uczeń zdał.");
+        } else
+        {
+            Console.WriteLine("Uczeń nie zdał.");
+        }
+        Pauza();
     }
 }
-    
-        
